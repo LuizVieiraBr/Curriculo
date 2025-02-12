@@ -21,12 +21,12 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Luiz Henrique</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+                <span class="d-block d-lg-none nome-destaque">Luiz Henrique</span>
+                <span class="d-none d-lg-block"><img data-aos="fade-right" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav">
+                <ul data-aos="fade-right"class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experiências</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educação</a></li>
@@ -102,13 +102,7 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Janeiro 2022 - Dezembro 2024</span></div>
                     </div>
-                    <div data-aos="fade-left" class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">E.E. Visconde de Mauá</h3>
-                            <div class="subheading mb-3">Ensino Médio</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Dezembro 2020 </span></div>
-                    </div>
+
                 </div>
             </section>
             <hr class="m-0" />
@@ -203,12 +197,12 @@
                             <!-- Project Card 1-->
                             <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                                 <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-column flex-md-row align-items-center">
                                         <div class="p-5">
                                             <h2 class="fw-bolder"><a href="https://lab-rat-br.itch.io/caminho-da-forja"> Caminho da Forja</a></h2>
                                             <p>Caminho da Forja é um rogue-like hack and slash steampunk que segue Dumont em sua busca por vingança após a destruição de sua família e cidade. Entre combates frenéticos e críticas à desigualdade, Dumont luta para mudar o destino de Porto Férreo.</p>
                                         </div>
-                                        <img class="img-fluid" src="assets/img/WhatsApp Image 2024-11-18 at 15.05.20.jpeg" alt="..." />
+                                        <img class="img-fluid w-100 w-md-auto" src="assets/img/WhatsApp Image 2024-11-18 at 15.05.20.jpeg" alt="Proejto Caminho da" />
                                     </div>
                                 </div>
                             </div>
@@ -216,12 +210,12 @@
                             <!-- Project Card 2-->
                             <div class="card overflow-hidden shadow rounded-4 border-0">
                                 <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
+                                    <div class="d-flex flex-column flex-md-row align-items-center">
                                         <div class="p-5">
                                             <h2 class="fw-bolder"><a href="https://www.instagram.com/p/DAq3i7GPPSK/?img_index=1">Jornal de Porto Férreo</a></h2>
                                             <p>Os jornais de Porto Férreo trazem notícias, boatos e denúncias sobre a corrupção e desigualdade na cidade. Publicados no Instagram, expandem a lore de Dumont e aprofundam a imersão no universo do jogo. Novas edições revelarão segredos e conspirações do submundo.</p>
                                         </div>
-                                        <img class="img-fluid" src="assets/img/1.png">
+                                        <img class="img-fluid w-100 w-md-auto" src="assets/img/1.png">
                                     </div>
                                 </div>
                             </div>
@@ -259,7 +253,7 @@
                             </div>
                             <img class="img-fluid com-borda" src="assets/img/Dumont tibia 2 Idle.gif" alt="..." />
                             <figure>
-                                <figcaption>Dumont</figcaption>
+                                <figcaption class="efeito-sub-titulo">Dumont</figcaption>
                             </figure>
                         </div>
                     </div>
@@ -292,8 +286,8 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/barra de mana e vida.gif">
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">A barra de vida e mana exibe o estado do personagem de forma clara e estilizada. Com um design condizente com a estética do jogo, indica visualmente a vitalidade e os recursos mágicos do jogador. Sua leitura rápida permite decisões estratégicas em combate.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <p class="mb-4">A barra de vida e mana exibe o estado do personagem de forma clara e estilizada. Com um design condizente com a estética do jogo. Criado no Aseprite.</p>
+                                    <button class="btn btn-primary fechar-color" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Fechar
                                     </button>
@@ -320,8 +314,8 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/Dumont tibia 2 Idle.gif" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Dumont é um habilidoso ferreiro em busca de vingança após a destruição de sua família e cidade. Marcado pelo passado, ele empunha a obra-prima de seus pais para enfrentar a corrupção de Porto Férreo. Determinado e implacável, luta para mudar seu destino.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <p class="mb-4">Dumont é um habilidoso ferreiro em busca de vingança após a destruição de sua família e cidade. Marcado pelo passado, ele empunha a obra-prima de seus pais para enfrentar a corrupção de Porto Férreo. Determinado e implacável, luta para mudar seu destino. Criado no Aseprite.</p>
+                                    <button class="btn btn-primary fechar-color" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Fechar
                                     </button>
@@ -348,8 +342,8 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/Thulgor html.gif" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Thulgor é uma cobaia criada por Dmitri, resultado de experimentos brutais e manipulativos. Ele carrega os danos físicos e mentais dos testes, tornando-se uma força de destruição. Apesar de sua lealdade forçada, busca sua própria liberdade, com um instinto selvagem de sobrevivência.</p>
-                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                    <p class="mb-4">Thulgor é uma cobaia criada por Dmitri, resultado de experimentos brutais e manipulativos. Ele carrega os danos físicos e mentais dos testes, tornando-se uma força de destruição. Apesar de sua lealdade forçada, busca sua própria liberdade, com um instinto selvagem de sobrevivência. Criado no Aseprite.</p>
+                                    <button class="btn btn-primary fechar-color" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Fechar
                                     </button>
@@ -379,5 +373,9 @@
                 disable: 'mobile'
           });
         </script>
+
+
+
+
     </body>
 </html>

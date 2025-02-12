@@ -10977,7 +10977,7 @@ section.resume-section .resume-section-content {
 }
 
 .com-borda {
-  border: 5px solid #3D1A50;
+  border: 6px solid #3D1A50;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Efeito de sombra */
   transition: 0.3s;
@@ -10985,6 +10985,7 @@ section.resume-section .resume-section-content {
 
 .com-borda:hover {
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5); /* Sombra mais intensa */
+  border-color: #7A3DB8;
 }
 
 .img-subir-godot {
@@ -11001,5 +11002,23 @@ figcaption {
   color: #3D1A50; /* Cor do texto */
   text-align: center; /* Alinhamento do subtítulo */
   margin-top: 5px; /* Espaçamento entre a imagem e o subtítulo */
+  position:relative
+}
+
+.fechar-color {
+  color: white;
+}
+.nome-destaque {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+      opacity: 1;
+  }
 }
 
