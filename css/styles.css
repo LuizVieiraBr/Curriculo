@@ -11022,3 +11022,65 @@ figcaption {
   }
 }
 
+.list-inline-item {
+  position: relative;
+  display: inline-block;
+}
+
+.list-inline-item i {
+  font-size: 50px; /* Tamanho do ícone */
+}
+
+.list-inline-item::after {
+  content: attr(data-tooltip); /* Pega o texto do atributo data-tooltip */
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 3px 8px; /* Ajuste o padding para tornar o texto mais compacto */
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 15px; /* Ajuste o tamanho do texto */
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.list-inline-item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.list-inline-item {
+  position: relative;
+  display: inline-block;
+}
+
+.social-icon  {
+  font-size: 50px; /* Tamanho do ícone */
+}
+
+.social-icon::after {
+  content: attr(data-tooltip); /* Pega o texto do atributo data-tooltip */
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 3px 8px; /* Ajuste o padding para tornar o texto mais compacto */
+  border-radius: 5px;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 15px; /* Ajuste o tamanho do texto */
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.social-icon:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
